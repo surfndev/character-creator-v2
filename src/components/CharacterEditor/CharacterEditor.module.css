@@ -4,9 +4,11 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
+  max-width: 65%;
   padding-bottom: 64px;
 }
 
@@ -24,7 +26,24 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  top: 15%; /*top can be set to pixel because the top padding is fixed in any viewpoint*/
+  left:60%;
+  bottom: 15%;
+  min-height: 500px;
 }
 
 .controlColumn {
+  max-width: 50%;
 }
+
+.perspectiveBox{
+  background-color: hsl(195deg, 20%, 86%);
+  height: 50%;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+
